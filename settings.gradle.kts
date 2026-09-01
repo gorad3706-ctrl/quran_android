@@ -16,10 +16,12 @@ dependencyResolutionManagement {
 }
 
 include(":app")
+include(":reussite")
 include(":common:analytics")
 include(":common:audio")
 include(":common:bookmark")
 include(":common:data")
+include(":common:education")
 include(":common:drawing")
 include(":common:di")
 include(":common:download")

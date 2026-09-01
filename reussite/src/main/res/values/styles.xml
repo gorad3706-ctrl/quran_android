@@ -1,0 +1,9 @@
+<resources>
+  <style name="Theme.Reussite" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:fontFamily">sans</item>
+    <item name="android:colorAccent">@color/reussite_green</item>
+    <item name="android:navigationBarColor">@color/reussite_cream</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:statusBarColor">@color/reussite_cream</item>
+  </style>
+</resources>

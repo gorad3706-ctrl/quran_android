@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">Réussite BFEM &amp; BAC</string>
+  <string name="onboarding_title">Prépare ton examen avec un plan qui s’adapte à toi.</string>
+  <string name="onboarding_subtitle">Ton programme, tes résultats et tes révisions restent synchronisés sur tes appareils.</string>
+  <string name="first_name_hint">Prénom</string>
+  <string name="exam_date_hint">Date de l’examen (JJ/MM/AAAA)</string>
+  <string name="level_label">Niveau préparé</string>
+  <string name="bfem">3ème — BFEM</string>
+  <string name="bac">Terminale — BAC</string>
+  <string name="continue_action">Créer mon espace</string>
+  <string name="privacy_note">En continuant, tu pourras choisir ta série et synchroniser le référentiel officiel dans l’étape suivante.</string>
+  <string name="validation_name">Indique ton prénom pour continuer.</string>
+  <string name="validation_date">Indique une date d’examen valide au format JJ/MM/AAAA.</string>
+  <string name="profile_created">Profil validé. Configuration de ton programme…</string>
+</resources>
