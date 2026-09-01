@@ -16,6 +16,7 @@ dependencyResolutionManagement {
 }
 
 include(":app")
+include(":reussite")
 include(":common:analytics")
 include(":common:audio")
 include(":common:bookmark")

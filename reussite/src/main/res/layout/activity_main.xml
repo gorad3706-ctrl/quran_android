@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/reussite_cream" android:fillViewport="true">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:orientation="vertical" android:padding="24dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="RÉUSSITE" android:textColor="@color/reussite_green" android:textStyle="bold"
+        android:textSize="14sp" android:letterSpacing="0.12" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="@string/onboarding_title" android:textColor="@color/reussite_navy"
+        android:textSize="30sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:text="@string/onboarding_subtitle" android:textColor="@color/reussite_text" android:textSize="16sp" />
+    <EditText android:id="@+id/first_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" android:hint="@string/first_name_hint" android:inputType="textPersonName" />
+    <EditText android:id="@+id/exam_date" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:hint="@string/exam_date_hint" android:inputType="date" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="@string/level_label" android:textColor="@color/reussite_text" android:textStyle="bold" />
+    <RadioGroup android:id="@+id/level" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+      <RadioButton android:id="@+id/bfem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/bfem" />
+      <RadioButton android:id="@+id/bac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp" android:text="@string/bac" />
+    </RadioGroup>
+    <Button android:id="@+id/continue_button" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" android:background="@drawable/button_primary" android:text="@string/continue_action" android:textColor="@android:color/white" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"
+        android:gravity="center" android:text="@string/privacy_note" android:textColor="@color/reussite_text" android:textSize="13sp" />
+  </LinearLayout>
+</ScrollView>
